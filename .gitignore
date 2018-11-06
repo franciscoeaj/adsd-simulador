@@ -36,3 +36,4 @@ target/*
 .DS_Store
 sad.iml
 *.iml
+/bin/
