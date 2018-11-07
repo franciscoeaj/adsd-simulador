@@ -13,10 +13,10 @@ public class Saida extends Sim_entity{
 	Sim_negexp_obj delay;
 	Sim_stat stat;
 	
-	public Saida(String nome, double media) {
-		super(nome);
+	public Saida(Entidades saida, double media) {
+		super(saida.getNome());
 		
-		entrada = new Sim_port("Entrada");
+		entrada = new Sim_port(Entidades.ENTRADA.getNome());
 		add_port(entrada);
 		
 		delay = new Sim_negexp_obj("Delay", media);

@@ -15,19 +15,19 @@ public class Bilheteria extends Sim_entity{
 	private Sim_random_obj prob;
 	private Sim_stat stat;
 	
-	public Bilheteria(String nome, double media, double variancia) {
-		super(nome);
+	public Bilheteria(Entidades bilheteriaGeral, double media, double variancia) {
+		super(bilheteriaGeral.getNome());
 		
-		entrada = new Sim_port("Entrada");
+		entrada = new Sim_port(Entidades.ENTRADA.getNome());
 		add_port(entrada);
 		
-		areaConvenencia = new Sim_port("Area de conveniencia");
+		areaConvenencia = new Sim_port(Entidades.AREA_CONVENIENCIA.getNome());
 		add_port(areaConvenencia);
 		
-		cadeiras = new Sim_port("Cadeiras");
+		cadeiras = new Sim_port(Entidades.ARQUIBANCADA_CADEIRAS.getNome());
 		add_port(cadeiras);
 		
-		geral = new Sim_port("Geral");
+		geral = new Sim_port(Entidades.ARQUIBANCADA_GERAL.getNome());
 		add_port(geral);
 		
 		delay = new Sim_normal_obj("Delay", media, variancia);

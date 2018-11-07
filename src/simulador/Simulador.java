@@ -8,38 +8,38 @@ public class Simulador {
 
         Sim_system.initialise();
         
-        Entrada entrada = new Entrada("Entrada", 8);
-        Bilheteria bi_geral = new Bilheteria("Bilheteria geral", 4, 1);
-        Bilheteria bi_preferencial = new Bilheteria("Bilheteria preferencial", 6, 1);
-        Arquibancada arq_geral = new Arquibancada("Arquibancada geral", 6);
-        Arquibancada arq_cadeiras = new Arquibancada("Cadeiras cativas", 5);
-        AreaConveniencia areaConveniencia = new AreaConveniencia("Area de conveniencia", 10, 3);
-        Banheiro banheiro_M = new Banheiro("Banheiro masculino", 5, 2);
-        Banheiro banheiro_F = new Banheiro("Banheiro feminino", 2, 1);
-        Lanchonete lanchonete = new Lanchonete("Lanchonete", 3, 2);
-        Saida saida = new Saida("Saida", 8);
+        Entrada entrada = new Entrada(Entidades.ENTRADA, 8D);
+        Bilheteria bi_geral = new Bilheteria(Entidades.BILHETERIA_GERAL, 4, 1);
+        Bilheteria bi_preferencial = new Bilheteria(Entidades.BILHETERIA_PREFERENCIAL, 6, 1);
+        Arquibancada arq_geral = new Arquibancada(Entidades.ARQUIBANCADA_GERAL, 6);
+        Arquibancada arq_cadeiras = new Arquibancada(Entidades.ARQUIBANCADA_CADEIRAS, 5);
+        AreaConveniencia areaConveniencia = new AreaConveniencia(Entidades.AREA_CONVENIENCIA, 10, 3);
+        Banheiro banheiro_M = new Banheiro(Entidades.BANHEIRO_MASCULINO, 5, 2);
+        Banheiro banheiro_F = new Banheiro(Entidades.BANHEIRO_FEMININO, 2, 1);
+        Lanchonete lanchonete = new Lanchonete(Entidades.LANCHONETE, 3, 2);
+        Saida saida = new Saida(Entidades.SAIDA, 8);
         
-        Sim_system.link_ports("Entrada", "Bilheteria geral", "Bilheteria geral", "Entrada");
-        Sim_system.link_ports("Entrada", "Bilheteria preferencial", "Bilheteria preferencial", "Entrada");
+        Sim_system.link_ports(Entidades.ENTRADA.getNome(), Entidades.BILHETERIA_GERAL.getNome(), Entidades.BILHETERIA_GERAL.getNome(), Entidades.ENTRADA.getNome());
+        Sim_system.link_ports(Entidades.ENTRADA.getNome(), Entidades.BILHETERIA_PREFERENCIAL.getNome(), Entidades.BILHETERIA_PREFERENCIAL.getNome(), Entidades.ENTRADA.getNome());
         
-        Sim_system.link_ports("Bilheteria geral", "Area de conveniencia", "Area de conveniencia", "Entrada");
-        Sim_system.link_ports("Bilheteria preferencial", "Area de conveniencia", "Area de conveniencia", "Entrada");
+        Sim_system.link_ports(Entidades.BILHETERIA_GERAL.getNome(), Entidades.AREA_CONVENIENCIA.getNome(), Entidades.AREA_CONVENIENCIA.getNome(), Entidades.ENTRADA.getNome());
+        Sim_system.link_ports(Entidades.BILHETERIA_PREFERENCIAL.getNome(), Entidades.AREA_CONVENIENCIA.getNome(), Entidades.AREA_CONVENIENCIA.getNome(), Entidades.ENTRADA.getNome());
         	
-        Sim_system.link_ports("Arquibancada geral", "Saida", "Saida", "Entrada");
-        Sim_system.link_ports("Arquibancada preferencial", "Saida", "Saida", "Entrada");
+        Sim_system.link_ports(Entidades.ARQUIBANCADA_GERAL.getNome(), Entidades.SAIDA.getNome(), Entidades.SAIDA.getNome(), Entidades.ENTRADA.getNome());
+        Sim_system.link_ports(Entidades.ARQUIBANCADA_CADEIRAS.getNome(), Entidades.SAIDA.getNome(), Entidades.SAIDA.getNome(), Entidades.ENTRADA.getNome());
         
-        Sim_system.link_ports("Area de conveniencia", "Lanchonete", "Lanchonete", "Entrada");
-        Sim_system.link_ports("Area de conveniencia", "Banheiro masculino", "Banheiro masculino", "Entrada");
-        Sim_system.link_ports("Area de conveniencia", "Banheiro femininino", "Banheiro feminino", "Entrada");
+        Sim_system.link_ports(Entidades.AREA_CONVENIENCIA.getNome(), Entidades.LANCHONETE.getNome(), Entidades.LANCHONETE.getNome(), Entidades.ENTRADA.getNome());
+        Sim_system.link_ports(Entidades.AREA_CONVENIENCIA.getNome(), Entidades.BANHEIRO_MASCULINO.getNome(), Entidades.BANHEIRO_MASCULINO.getNome(), Entidades.ENTRADA.getNome());
+        Sim_system.link_ports(Entidades.AREA_CONVENIENCIA.getNome(), Entidades.BANHEIRO_FEMININO.getNome(), Entidades.BANHEIRO_FEMININO.getNome(), Entidades.ENTRADA.getNome());
         
-        Sim_system.link_ports("Banheiro masculino", "Geral", "Arquibancada geral", "Entrada");
-        Sim_system.link_ports("Banheiro masculino", "Cadeiras", "Cadeiras cativas", "Entrada");
+        Sim_system.link_ports(Entidades.BANHEIRO_MASCULINO.getNome(), Entidades.ARQUIBANCADA_GERAL.getNome(), Entidades.ARQUIBANCADA_GERAL.getNome(), Entidades.ENTRADA.getNome());
+        Sim_system.link_ports(Entidades.BANHEIRO_MASCULINO.getNome(), Entidades.ARQUIBANCADA_CADEIRAS.getNome(), Entidades.ARQUIBANCADA_CADEIRAS.getNome(), Entidades.ENTRADA.getNome());
         
-        Sim_system.link_ports("Banheiro feminino", "Geral", "Arquibancada geral", "Entrada");
-        Sim_system.link_ports("Banheiro feminino", "Cadeiras", "Cadeiras cativas", "Entrada");
+        Sim_system.link_ports(Entidades.BANHEIRO_FEMININO.getNome(), Entidades.ARQUIBANCADA_GERAL.getNome(), Entidades.ARQUIBANCADA_GERAL.getNome(), Entidades.ENTRADA.getNome());
+        Sim_system.link_ports(Entidades.BANHEIRO_FEMININO.getNome(), Entidades.ARQUIBANCADA_CADEIRAS.getNome(), Entidades.ARQUIBANCADA_CADEIRAS.getNome(), Entidades.ENTRADA.getNome());
         
-        Sim_system.link_ports("Lanchonete", "Geral", "Arquibancada geral", "Entrada");
-        Sim_system.link_ports("Lanchonete", "Cadeiras", "Cadeiras cativas", "Entrada");
+        Sim_system.link_ports(Entidades.LANCHONETE.getNome(), Entidades.ARQUIBANCADA_GERAL.getNome(), Entidades.ARQUIBANCADA_GERAL.getNome(), Entidades.ENTRADA.getNome());
+        Sim_system.link_ports(Entidades.LANCHONETE.getNome(), Entidades.ARQUIBANCADA_CADEIRAS.getNome(), Entidades.ARQUIBANCADA_CADEIRAS.getNome(), Entidades.ENTRADA.getNome());
         
         Sim_system.set_trace_detail(false, true, false);
         

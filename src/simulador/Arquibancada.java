@@ -13,13 +13,13 @@ public class Arquibancada extends Sim_entity{
 	private Sim_negexp_obj delay;
 	private Sim_stat stat;
 	
-	public Arquibancada(String nome, double media) {
-		super(nome);
+	public Arquibancada(Entidades arquibancadaGeral, double media) {
+		super(arquibancadaGeral.getNome());
 		
-		entrada = new Sim_port("Entrada");
+		entrada = new Sim_port(Entidades.ENTRADA.getNome());
 		add_port(entrada);
 		
-		saida = new Sim_port("Saida");
+		saida = new Sim_port(Entidades.SAIDA.getNome());
 		add_port(saida);
 		
 		delay = new Sim_negexp_obj("Delay", media);

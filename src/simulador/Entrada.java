@@ -13,13 +13,13 @@ public class Entrada extends Sim_entity {
 	private Sim_negexp_obj delay;
 	private Sim_random_obj prob;
 	
-	Entrada (String nome, double media) {
-		super(nome); 
+	Entrada (Entidades entrada, double media) {
+		super(entrada.getNome()); 
 		
-		bilheteriaGeral = new Sim_port("Bilheteria geral");
+		bilheteriaGeral = new Sim_port(Entidades.BILHETERIA_GERAL.getNome());
 		add_port(bilheteriaGeral);
 		
-		bilheteriaPreferencial = new Sim_port("Bilheteria preferencial");
+		bilheteriaPreferencial = new Sim_port(Entidades.BILHETERIA_PREFERENCIAL.getNome());
 		add_port(bilheteriaPreferencial);
 		
 		delay = new Sim_negexp_obj("Delay", media);
@@ -28,7 +28,7 @@ public class Entrada extends Sim_entity {
 		prob = new Sim_random_obj("Probabilidade");
 		add_generator(prob);
 	}
-	
+
 	public void body() {
 		
 		for (int i = 0; i < 100; i++) {	

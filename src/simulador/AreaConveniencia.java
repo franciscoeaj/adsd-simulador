@@ -15,19 +15,19 @@ public class AreaConveniencia extends Sim_entity{
 	private Sim_random_obj prob;
 	private Sim_stat stat;
 	
-	public AreaConveniencia(String nome, double media, double variancia) {
-		super(nome);
+	public AreaConveniencia(Entidades areaConveniencia, double media, double variancia) {
+		super(areaConveniencia.getNome());
 		
-		entrada = new Sim_port("Entrada");
+		entrada = new Sim_port(Entidades.ENTRADA.getNome());
 		add_port(entrada);
 		
-		lanchonete = new Sim_port("Lanchonete");
+		lanchonete = new Sim_port(Entidades.LANCHONETE.getNome());
 		add_port(lanchonete);
 		
-		banheiroM = new Sim_port("Banheiro masculino");
+		banheiroM = new Sim_port(Entidades.BANHEIRO_MASCULINO.getNome());
 		add_port(banheiroM);
 		
-		banheiroF= new Sim_port("Banheiro feminino");
+		banheiroF= new Sim_port(Entidades.BANHEIRO_FEMININO.getNome());
 		add_port(banheiroF);
 		
 		delay = new Sim_normal_obj("Delay", media, variancia);

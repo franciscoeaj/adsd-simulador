@@ -15,16 +15,16 @@ public class Lanchonete extends Sim_entity {
 	private Sim_random_obj prob;
 	private Sim_stat stat;
 	
-	public Lanchonete(String nome, double media, double variancia) {
-		super(nome);
+	public Lanchonete(Entidades lanchonete, double media, double variancia) {
+		super(lanchonete.getNome());
 		
-		entrada = new Sim_port("Entrada");
+		entrada = new Sim_port(Entidades.ENTRADA.getNome());
 		add_port(entrada);
 		
-		arqGeral = new Sim_port("Geral");
+		arqGeral = new Sim_port(Entidades.ARQUIBANCADA_GERAL.getNome());
 		add_port(arqGeral);
 		
-		arqCadeiras = new Sim_port("Cadeiras");
+		arqCadeiras = new Sim_port(Entidades.ARQUIBANCADA_CADEIRAS.getNome());
 		add_port(arqCadeiras);
 		
 		delay = new Sim_normal_obj("Delay", media, variancia);
