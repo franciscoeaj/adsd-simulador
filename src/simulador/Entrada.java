@@ -3,46 +3,33 @@ package simulador;
 import eduni.simjava.Sim_entity;
 import eduni.simjava.Sim_port;
 import eduni.simjava.distributions.Sim_negexp_obj;
-import eduni.simjava.distributions.Sim_random_obj;
-
 
 public class Entrada extends Sim_entity {
-	
-	private Sim_port bilheteriaGeral;
-	private Sim_port bilheteriaPreferencial;
+
+	private Sim_port saida;
 	private Sim_negexp_obj delay;
-	private Sim_random_obj prob;
 	
-	Entrada (Entidades entrada, double media) {
-		super(entrada.getNome()); 
+	Entrada (String nome, double media) {
 		
-		bilheteriaGeral = new Sim_port(Entidades.BILHETERIA_GERAL.getNome());
-		add_port(bilheteriaGeral);
+		super(nome);
 		
-		bilheteriaPreferencial = new Sim_port(Entidades.BILHETERIA_PREFERENCIAL.getNome());
-		add_port(bilheteriaPreferencial);
+		saida = new Sim_port("Saida");
+		add_port(saida);
 		
 		delay = new Sim_negexp_obj("Delay", media);
 		add_generator(delay);
 		
-		prob = new Sim_random_obj("Probabilidade");
-		add_generator(prob);
 	}
-
+	
 	public void body() {
 		
-		for (int i = 0; i < 100; i++) {	
+		for (int i = 0; i < 100; i++) {
 			
-			double p = prob.sample();
-		
-			if (p <= 0.15) { //15% ds pessoas vao pra fila preferencial
-				sim_schedule(bilheteriaPreferencial, 0.0, 1);
-				sim_pause(delay.sample());
-				
-			} else { //o resto vai para a fila geral
-				sim_schedule(bilheteriaGeral, 0.0, 1);
-				sim_pause(delay.sample());
-			}
-		}		
+			sim_schedule(saida, 0.0, 1);
+			
+			sim_trace(1, "Nova pessoa entra no estadio");
+			
+			sim_pause(delay.sample());
+		}
 	}
 }

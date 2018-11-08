@@ -7,18 +7,22 @@ import eduni.simjava.Sim_stat;
 import eduni.simjava.Sim_system;
 import eduni.simjava.distributions.Sim_negexp_obj;
 
-public class Saida extends Sim_entity {
-
-	private Sim_port in;
+public class ArquibancadaCadeiras extends Sim_entity {
+	
+	private Sim_port entrada, saida;
 	private Sim_negexp_obj delay;
+	
 	private Sim_stat stat;
 	
-	Saida (String nome, double media) {
+	ArquibancadaCadeiras(String nome, double media) {
 		
 		super(nome);
 		
-		in = new Sim_port("In");
-		add_port(in);
+		entrada = new Sim_port("Entrada");
+		saida = new Sim_port("Saida");
+		
+		add_port(entrada);
+		add_port(saida);
 		
 		delay = new Sim_negexp_obj("Delay", media);
 		add_generator(delay);
@@ -32,6 +36,7 @@ public class Saida extends Sim_entity {
 		stat.add_measure(Sim_stat.RESIDENCE_TIME); //Tempo de resposta
 		
 		set_stat(stat);
+		
 	}
 	
 	public void body() {
@@ -42,13 +47,16 @@ public class Saida extends Sim_entity {
 			
 			sim_get_next(e);
 			
+			sim_trace(1, "Nova pessoa na arquibancada das cadeiras");
+			
 			sim_process(delay.sample());
-			//sim_process(delay);
 			
 			sim_completed(e);
 			
-			sim_trace(1, "Pessoa vai pra casa");
+			sim_trace(1, "Pessoa sai da arquibancada das cadeiras");
+			
+			sim_schedule(saida, 0.0, 1);
 		}
 	}
-	
+
 }

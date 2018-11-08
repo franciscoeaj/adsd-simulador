@@ -1,0 +1,532 @@
+u: Entrada at 0.0: Nova pessoa entra no estadio
+u: Bilheteria at 2.4101707757159714: Pessoa compra ingresso
+u: ArquibancadaGeral at 2.4101707757159714: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 2.529668907233479: Pessoa sai da arquibancada geral
+u: Entrada at 11.406618537804963: Nova pessoa entra no estadio
+u: Entrada at 12.813210075145083: Nova pessoa entra no estadio
+u: Bilheteria at 13.77444187719031: Pessoa compra ingresso
+u: ArquibancadaGeral at 13.77444187719031: Nova pessoa na arquibancada geral
+u: Saida at 16.953813964266608: Pessoa vai pra casa
+u: Bilheteria at 17.003953706327263: Pessoa compra ingresso
+u: ArquibancadaGeral at 22.677962385654155: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 22.677962385654155: Nova pessoa na arquibancada geral
+u: Entrada at 22.80713213702738: Nova pessoa entra no estadio
+u: Saida at 23.265639634134068: Pessoa vai pra casa
+u: ArquibancadaGeral at 23.508160074760802: Pessoa sai da arquibancada geral
+u: Bilheteria at 25.53240424773307: Pessoa compra ingresso
+u: ArquibancadaGeral at 25.53240424773307: Nova pessoa na arquibancada geral
+u: Saida at 33.170482133867324: Pessoa vai pra casa
+u: ArquibancadaGeral at 36.21415748802349: Pessoa sai da arquibancada geral
+u: Saida at 37.55018205968745: Pessoa vai pra casa
+u: Entrada at 41.19670125796911: Nova pessoa entra no estadio
+u: Bilheteria at 43.27365379978157: Pessoa compra ingresso
+u: ArquibancadaGeral at 43.27365379978157: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 49.60924972654847: Pessoa sai da arquibancada geral
+u: Entrada at 52.77290300497098: Nova pessoa entra no estadio
+u: Bilheteria at 54.724862641303346: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 54.724862641303346: Nova pessoa na arquibancada das cadeiras
+u: ArquibancadaCadeiras at 54.85360958360446: Pessoa sai da arquibancada das cadeiras
+u: Entrada at 62.142659016058005: Nova pessoa entra no estadio
+u: Bilheteria at 64.35270151596886: Pessoa compra ingresso
+u: ArquibancadaGeral at 64.35270151596886: Nova pessoa na arquibancada geral
+u: Entrada at 66.53322171436349: Nova pessoa entra no estadio
+u: Bilheteria at 68.26206838782038: Pessoa compra ingresso
+u: Saida at 70.72171660754222: Pessoa vai pra casa
+u: AreaDeConveniencia at 71.10709557087854: Pessoa vai para o banheiro masculino
+u: Entrada at 73.73845203492202: Nova pessoa entra no estadio
+u: Saida at 73.91204331257312: Pessoa vai pra casa
+u: BanheiroMasculino at 74.02252321267541: Pessoa vai para a geral
+u: Entrada at 74.05983372089192: Nova pessoa entra no estadio
+u: Bilheteria at 76.56846361081904: Pessoa compra ingresso
+u: Entrada at 77.74118450064162: Nova pessoa entra no estadio
+u: ArquibancadaGeral at 78.50694166302472: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 78.50694166302472: Nova pessoa na arquibancada geral
+u: Saida at 78.57498512332018: Pessoa vai pra casa
+u: Bilheteria at 78.98217675582359: Pessoa compra ingresso
+u: ArquibancadaGeral at 80.09613253462987: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 80.09613253462987: Nova pessoa na arquibancada geral
+u: Bilheteria at 82.25134423629652: Pessoa compra ingresso
+u: Entrada at 86.02181085620468: Nova pessoa entra no estadio
+u: Saida at 86.07392396410717: Pessoa vai pra casa
+u: ArquibancadaGeral at 87.31624927596067: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 87.31624927596067: Nova pessoa na arquibancada geral
+u: Bilheteria at 89.32222910923136: Pessoa compra ingresso
+u: Saida at 95.87358572445558: Pessoa vai pra casa
+u: Entrada at 97.02146092565219: Nova pessoa entra no estadio
+u: Bilheteria at 100.43608848223188: Pessoa compra ingresso
+u: AreaDeConveniencia at 103.83715808651154: Pessoa vai para o banheiro masculino
+u: Entrada at 103.94723294199618: Nova pessoa entra no estadio
+u: Entrada at 104.65766919741863: Nova pessoa entra no estadio
+u: Entrada at 104.78512871110235: Nova pessoa entra no estadio
+u: Bilheteria at 105.54115523278932: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 105.54115523278932: Nova pessoa na arquibancada das cadeiras
+u: ArquibancadaCadeiras at 106.09771032176953: Pessoa sai da arquibancada das cadeiras
+u: Entrada at 106.14198883535435: Nova pessoa entra no estadio
+u: BanheiroMasculino at 106.29823717969839: Pessoa vai para a geral
+u: Entrada at 106.72196016306332: Nova pessoa entra no estadio
+u: Bilheteria at 108.94136166146629: Pessoa compra ingresso
+u: Bilheteria at 112.26285380520092: Pessoa compra ingresso
+u: ArquibancadaGeral at 113.28751864507439: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 113.28751864507439: Nova pessoa na arquibancada geral
+u: Bilheteria at 115.50655739396954: Pessoa compra ingresso
+u: Saida at 116.10895793373714: Pessoa vai pra casa
+u: Entrada at 117.25231941645758: Nova pessoa entra no estadio
+u: Bilheteria at 118.96030220578919: Pessoa compra ingresso
+u: ArquibancadaGeral at 119.89401695033841: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 119.89401695033841: Nova pessoa na arquibancada geral
+u: Bilheteria at 121.94002974925145: Pessoa compra ingresso
+u: Entrada at 122.30187514843033: Nova pessoa entra no estadio
+u: ArquibancadaGeral at 122.35644138772126: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 122.35644138772126: Nova pessoa na arquibancada geral
+u: Saida at 124.34327670606325: Pessoa vai pra casa
+u: Saida at 125.58119692623949: Pessoa vai pra casa
+u: Bilheteria at 126.51350069922681: Pessoa compra ingresso
+u: Entrada at 127.7152889155952: Nova pessoa entra no estadio
+u: Saida at 127.97453396612607: Pessoa vai pra casa
+u: ArquibancadaGeral at 129.50252629668816: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 129.50252629668816: Nova pessoa na arquibancada geral
+u: Bilheteria at 129.86315111569888: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 129.86315111569888: Nova pessoa na arquibancada das cadeiras
+u: ArquibancadaCadeiras at 135.30450742901553: Pessoa sai da arquibancada das cadeiras
+u: ArquibancadaGeral at 137.45823762121827: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 137.45823762121827: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 138.3884896196915: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 138.3884896196915: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 139.30358916732362: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 139.30358916732362: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 143.60416609144852: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 143.60416609144852: Nova pessoa na arquibancada geral
+u: Entrada at 143.8315046523251: Nova pessoa entra no estadio
+u: Saida at 144.08631826045078: Pessoa vai pra casa
+u: Bilheteria at 145.90930371412037: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 145.90930371412037: Nova pessoa na arquibancada das cadeiras
+u: ArquibancadaCadeiras at 146.48996062870032: Pessoa sai da arquibancada das cadeiras
+u: ArquibancadaGeral at 153.63763658160076: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 153.63763658160076: Nova pessoa na arquibancada geral
+u: Entrada at 154.23023236777652: Nova pessoa entra no estadio
+u: Bilheteria at 155.1021195093673: Pessoa compra ingresso
+u: Saida at 155.72679629994434: Pessoa vai pra casa
+u: Saida at 157.9730879283525: Pessoa vai pra casa
+u: ArquibancadaGeral at 161.60305761565297: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 161.60305761565297: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 161.77891718637707: Pessoa sai da arquibancada geral
+u: Entrada at 172.5548448686994: Nova pessoa entra no estadio
+u: Bilheteria at 174.82896237986307: Pessoa compra ingresso
+u: ArquibancadaGeral at 174.82896237986307: Nova pessoa na arquibancada geral
+u: Saida at 175.77401359721145: Pessoa vai pra casa
+u: ArquibancadaGeral at 177.36533795161435: Pessoa sai da arquibancada geral
+u: Entrada at 178.65117329243716: Nova pessoa entra no estadio
+u: Bilheteria at 182.4461424204851: Pessoa compra ingresso
+u: AreaDeConveniencia at 185.5490641735051: Pessoa vai para o banheiro feminino
+u: Saida at 186.65859301713056: Pessoa vai pra casa
+u: BanheiroFeminino at 188.31594894286312: Pessoa vai pras cadeiras
+u: ArquibancadaCadeiras at 188.31594894286312: Nova pessoa na arquibancada das cadeiras
+u: ArquibancadaCadeiras at 188.98076027028767: Pessoa sai da arquibancada das cadeiras
+u: Saida at 193.34975952499244: Pessoa vai pra casa
+u: Entrada at 195.051032114029: Nova pessoa entra no estadio
+u: Saida at 195.6993461310487: Pessoa vai pra casa
+u: Saida at 196.0937208104016: Pessoa vai pra casa
+u: Bilheteria at 198.28460804979395: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 198.28460804979395: Nova pessoa na arquibancada das cadeiras
+u: ArquibancadaCadeiras at 199.88446405348665: Pessoa sai da arquibancada das cadeiras
+u: Entrada at 203.90138661684836: Nova pessoa entra no estadio
+u: Bilheteria at 207.12821833405252: Pessoa compra ingresso
+u: ArquibancadaGeral at 207.12821833405252: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 209.58725991350988: Pessoa sai da arquibancada geral
+u: Saida at 211.77581316421401: Pessoa vai pra casa
+u: Saida at 212.84987070417048: Pessoa vai pra casa
+u: Entrada at 214.54482363070852: Nova pessoa entra no estadio
+u: Bilheteria at 217.32548661464017: Pessoa compra ingresso
+u: ArquibancadaGeral at 217.32548661464017: Nova pessoa na arquibancada geral
+u: Entrada at 218.83717012154784: Nova pessoa entra no estadio
+u: Bilheteria at 220.83848403381586: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 220.83848403381586: Nova pessoa na arquibancada das cadeiras
+u: ArquibancadaCadeiras at 222.01012729115865: Pessoa sai da arquibancada das cadeiras
+u: ArquibancadaGeral at 223.40381086971746: Pessoa sai da arquibancada geral
+u: Entrada at 230.3762241292244: Nova pessoa entra no estadio
+u: Saida at 230.45763982405145: Pessoa vai pra casa
+u: Bilheteria at 234.2904103714384: Pessoa compra ingresso
+u: ArquibancadaGeral at 234.2904103714384: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 238.00596738723: Pessoa sai da arquibancada geral
+u: Entrada at 239.1903573633238: Nova pessoa entra no estadio
+u: Bilheteria at 241.91855369215858: Pessoa compra ingresso
+u: ArquibancadaGeral at 241.91855369215858: Nova pessoa na arquibancada geral
+u: Entrada at 246.01626100857925: Nova pessoa entra no estadio
+u: Bilheteria at 248.6732426428424: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 248.6732426428424: Nova pessoa na arquibancada das cadeiras
+u: ArquibancadaCadeiras at 248.7113252505646: Pessoa sai da arquibancada das cadeiras
+u: ArquibancadaGeral at 248.86925488553644: Pessoa sai da arquibancada geral
+u: Saida at 249.07662407106642: Pessoa vai pra casa
+u: Saida at 250.05850093007905: Pessoa vai pra casa
+u: Entrada at 252.1605602922916: Nova pessoa entra no estadio
+u: Saida at 253.43229711124445: Pessoa vai pra casa
+u: Bilheteria at 254.99439457096952: Pessoa compra ingresso
+u: ArquibancadaGeral at 254.99439457096952: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 259.2670043095148: Pessoa sai da arquibancada geral
+u: Saida at 260.5397568304083: Pessoa vai pra casa
+u: Saida at 261.0778584112711: Pessoa vai pra casa
+u: Entrada at 262.940357109943: Nova pessoa entra no estadio
+u: Saida at 263.7848055511152: Pessoa vai pra casa
+u: Entrada at 265.5852708442514: Nova pessoa entra no estadio
+u: Bilheteria at 267.12145904019127: Pessoa compra ingresso
+u: Saida at 268.7057005236247: Pessoa vai pra casa
+u: AreaDeConveniencia at 269.6860097038964: Pessoa vai para o banheiro masculino
+u: Bilheteria at 270.21534300388583: Pessoa compra ingresso
+u: ArquibancadaGeral at 270.21534300388583: Nova pessoa na arquibancada geral
+u: BanheiroMasculino at 272.20705858742355: Pessoa vai para a geral
+u: Entrada at 275.24625803684614: Nova pessoa entra no estadio
+u: Saida at 275.5017037807217: Pessoa vai pra casa
+u: ArquibancadaGeral at 275.7440962654987: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 275.7440962654987: Nova pessoa na arquibancada geral
+u: Entrada at 276.3870020994257: Nova pessoa entra no estadio
+u: Bilheteria at 276.8517736414757: Pessoa compra ingresso
+u: ArquibancadaGeral at 277.2684596726645: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 277.2684596726645: Nova pessoa na arquibancada geral
+u: Bilheteria at 280.2231343035526: Pessoa compra ingresso
+u: ArquibancadaGeral at 282.24185089757117: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 282.24185089757117: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 283.45940787824424: Pessoa sai da arquibancada geral
+u: Saida at 284.2511509488012: Pessoa vai pra casa
+u: Entrada at 286.2786681771923: Nova pessoa entra no estadio
+u: Bilheteria at 288.6132071953597: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 288.6132071953597: Nova pessoa na arquibancada das cadeiras
+u: Entrada at 289.1389460854095: Nova pessoa entra no estadio
+u: ArquibancadaCadeiras at 289.64035144003054: Pessoa sai da arquibancada das cadeiras
+u: Bilheteria at 290.58400585784796: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 290.58400585784796: Nova pessoa na arquibancada das cadeiras
+u: Entrada at 292.6075783788512: Nova pessoa entra no estadio
+u: ArquibancadaCadeiras at 292.6753602925409: Pessoa sai da arquibancada das cadeiras
+u: Entrada at 292.73317273161445: Nova pessoa entra no estadio
+u: Saida at 293.9378074958025: Pessoa vai pra casa
+u: Bilheteria at 294.57244953287193: Pessoa compra ingresso
+u: ArquibancadaGeral at 294.57244953287193: Nova pessoa na arquibancada geral
+u: Saida at 295.69144040202093: Pessoa vai pra casa
+u: Bilheteria at 298.5127464689326: Pessoa compra ingresso
+u: Entrada at 301.80739112490954: Nova pessoa entra no estadio
+u: Saida at 302.1131080778553: Pessoa vai pra casa
+u: ArquibancadaGeral at 304.77813759322464: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 304.77813759322464: Nova pessoa na arquibancada geral
+u: Bilheteria at 305.4153807636689: Pessoa compra ingresso
+u: Entrada at 305.77718704696935: Nova pessoa entra no estadio
+u: ArquibancadaGeral at 307.34582625470836: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 307.34582625470836: Nova pessoa na arquibancada geral
+u: Bilheteria at 308.97028130039746: Pessoa compra ingresso
+u: Saida at 309.77388731755775: Pessoa vai pra casa
+u: Entrada at 310.40854194957166: Nova pessoa entra no estadio
+u: Saida at 311.38028225967554: Pessoa vai pra casa
+u: Entrada at 312.4969400935743: Nova pessoa entra no estadio
+u: Bilheteria at 313.46272722829565: Pessoa compra ingresso
+u: Bilheteria at 316.13300983647053: Pessoa compra ingresso
+u: ArquibancadaGeral at 316.6495236133187: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 316.6495236133187: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 319.56191560279257: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 319.56191560279257: Nova pessoa na arquibancada geral
+u: Saida at 321.4308849949801: Pessoa vai pra casa
+u: Entrada at 322.04356731534284: Nova pessoa entra no estadio
+u: ArquibancadaGeral at 323.9234040890307: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 323.9234040890307: Nova pessoa na arquibancada geral
+u: Saida at 326.1496236793472: Pessoa vai pra casa
+u: Bilheteria at 326.3297433629175: Pessoa compra ingresso
+u: Saida at 332.1534174704229: Pessoa vai pra casa
+u: ArquibancadaGeral at 341.4135113685568: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 341.4135113685568: Nova pessoa na arquibancada geral
+u: Saida at 342.0404808234804: Pessoa vai pra casa
+u: ArquibancadaGeral at 342.507863520266: Pessoa sai da arquibancada geral
+u: Entrada at 343.96041775605426: Nova pessoa entra no estadio
+u: Entrada at 346.28730235538654: Nova pessoa entra no estadio
+u: Bilheteria at 348.08632127786143: Pessoa compra ingresso
+u: Saida at 349.042327929517: Pessoa vai pra casa
+u: Bilheteria at 350.33886185824656: Pessoa compra ingresso
+u: ArquibancadaGeral at 350.33886185824656: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 350.834731550428: Pessoa sai da arquibancada geral
+u: AreaDeConveniencia at 351.5316790634613: Pessoa vai para o banheiro feminino
+u: BanheiroFeminino at 353.48730268749676: Pessoa vai para a geral
+u: ArquibancadaGeral at 353.48730268749676: Nova pessoa na arquibancada geral
+u: Saida at 354.4655625685682: Pessoa vai pra casa
+u: Saida at 357.5531231637084: Pessoa vai pra casa
+u: ArquibancadaGeral at 359.7436715926737: Pessoa sai da arquibancada geral
+u: Entrada at 367.2000332423154: Nova pessoa entra no estadio
+u: Saida at 368.6695871795232: Pessoa vai pra casa
+u: Entrada at 369.49864483812866: Nova pessoa entra no estadio
+u: Bilheteria at 370.2476061253752: Pessoa compra ingresso
+u: ArquibancadaGeral at 370.2476061253752: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 371.92398424097337: Pessoa sai da arquibancada geral
+u: Bilheteria at 372.6094278572724: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 372.6094278572724: Nova pessoa na arquibancada das cadeiras
+u: Saida at 375.9675638894408: Pessoa vai pra casa
+u: Entrada at 376.2365206441593: Nova pessoa entra no estadio
+u: ArquibancadaCadeiras at 377.41708399825797: Pessoa sai da arquibancada das cadeiras
+u: Saida at 378.1584155495818: Pessoa vai pra casa
+u: Bilheteria at 379.5063628157001: Pessoa compra ingresso
+u: ArquibancadaGeral at 379.5063628157001: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 384.2308155012795: Pessoa sai da arquibancada geral
+u: Saida at 397.03218246243824: Pessoa vai pra casa
+u: Entrada at 404.81730187707655: Nova pessoa entra no estadio
+u: Bilheteria at 406.6412020214503: Pessoa compra ingresso
+u: ArquibancadaGeral at 406.6412020214503: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 409.41008116072913: Pessoa sai da arquibancada geral
+u: Saida at 413.76752338689766: Pessoa vai pra casa
+u: Entrada at 415.2477147514346: Nova pessoa entra no estadio
+u: Entrada at 415.3820102286551: Nova pessoa entra no estadio
+u: Bilheteria at 417.7669790625181: Pessoa compra ingresso
+u: ArquibancadaGeral at 417.7669790625181: Nova pessoa na arquibancada geral
+u: Entrada at 418.2913954527632: Nova pessoa entra no estadio
+u: Bilheteria at 421.6214414611587: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 421.6214414611587: Nova pessoa na arquibancada das cadeiras
+u: ArquibancadaGeral at 422.75512292849396: Pessoa sai da arquibancada geral
+u: Entrada at 423.77474839496267: Nova pessoa entra no estadio
+u: Bilheteria at 424.42898966797253: Pessoa compra ingresso
+u: ArquibancadaGeral at 424.42898966797253: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 425.2496488798975: Pessoa sai da arquibancada geral
+u: ArquibancadaCadeiras at 425.4271181570698: Pessoa sai da arquibancada das cadeiras
+u: Bilheteria at 426.51332114638564: Pessoa compra ingresso
+u: ArquibancadaGeral at 426.51332114638564: Nova pessoa na arquibancada geral
+u: Entrada at 427.8165255060727: Nova pessoa entra no estadio
+u: ArquibancadaGeral at 431.2694716396733: Pessoa sai da arquibancada geral
+u: Bilheteria at 431.4152843746881: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 431.4152843746881: Nova pessoa na arquibancada das cadeiras
+u: ArquibancadaCadeiras at 432.150929935687: Pessoa sai da arquibancada das cadeiras
+u: Entrada at 434.7182094211314: Nova pessoa entra no estadio
+u: Entrada at 435.6386396148745: Nova pessoa entra no estadio
+u: Saida at 437.100928043506: Pessoa vai pra casa
+u: Bilheteria at 438.96931669270543: Pessoa compra ingresso
+u: ArquibancadaGeral at 438.96931669270543: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 439.1775571656374: Pessoa sai da arquibancada geral
+u: Bilheteria at 441.170826752965: Pessoa compra ingresso
+u: ArquibancadaGeral at 441.170826752965: Nova pessoa na arquibancada geral
+u: Entrada at 444.84184158935943: Nova pessoa entra no estadio
+u: Bilheteria at 448.0250319463785: Pessoa compra ingresso
+u: Saida at 448.31425180809185: Pessoa vai pra casa
+u: Entrada at 449.49506432362307: Nova pessoa entra no estadio
+u: ArquibancadaGeral at 449.5687663372007: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 449.5687663372007: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 450.80295120978775: Pessoa sai da arquibancada geral
+u: Saida at 451.39705537622626: Pessoa vai pra casa
+u: Bilheteria at 452.03940760393186: Pessoa compra ingresso
+u: ArquibancadaGeral at 452.03940760393186: Nova pessoa na arquibancada geral
+u: Entrada at 453.26466305180327: Nova pessoa entra no estadio
+u: Saida at 453.57103178712765: Pessoa vai pra casa
+u: Saida at 454.4326337261529: Pessoa vai pra casa
+u: Saida at 454.7640686805361: Pessoa vai pra casa
+u: Saida at 456.2376139731685: Pessoa vai pra casa
+u: Bilheteria at 457.69915930541936: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 457.69915930541936: Nova pessoa na arquibancada das cadeiras
+u: ArquibancadaGeral at 457.9383464912915: Pessoa sai da arquibancada geral
+u: Entrada at 458.7523576153892: Nova pessoa entra no estadio
+u: ArquibancadaCadeiras at 459.5948317784263: Pessoa sai da arquibancada das cadeiras
+u: Bilheteria at 460.90568113225555: Pessoa compra ingresso
+u: ArquibancadaGeral at 460.90568113225555: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 463.5774020734868: Pessoa sai da arquibancada geral
+u: Entrada at 465.4539483285666: Nova pessoa entra no estadio
+u: Entrada at 466.26863624031137: Nova pessoa entra no estadio
+u: Bilheteria at 468.307801011803: Pessoa compra ingresso
+u: Entrada at 469.5506341208238: Nova pessoa entra no estadio
+u: Entrada at 470.5520561472863: Nova pessoa entra no estadio
+u: Bilheteria at 470.70162359022584: Pessoa compra ingresso
+u: ArquibancadaGeral at 470.70162359022584: Nova pessoa na arquibancada geral
+u: AreaDeConveniencia at 470.74282990763027: Pessoa vai para o banheiro masculino
+u: Saida at 472.34303310097613: Pessoa vai pra casa
+u: BanheiroMasculino at 472.6983889062501: Pessoa vai para a geral
+u: Bilheteria at 473.8039610635651: Pessoa compra ingresso
+u: ArquibancadaGeral at 474.2181545771967: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 474.2181545771967: Nova pessoa na arquibancada geral
+u: Saida at 474.7275012681185: Pessoa vai pra casa
+u: Saida at 475.4929744195538: Pessoa vai pra casa
+u: Bilheteria at 476.34689595928376: Pessoa compra ingresso
+u: AreaDeConveniencia at 477.1368675688318: Pessoa vai para a lanchonete
+u: ArquibancadaGeral at 477.9148567172685: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 477.9148567172685: Nova pessoa na arquibancada geral
+u: Entrada at 478.4661755561515: Nova pessoa entra no estadio
+u: Entrada at 482.4673270556806: Nova pessoa entra no estadio
+u: Bilheteria at 482.8867250229119: Pessoa compra ingresso
+u: Saida at 484.050344818021: Pessoa vai pra casa
+u: Bilheteria at 484.68304295447314: Pessoa compra ingresso
+u: ArquibancadaGeral at 484.98242215745523: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 484.98242215745523: Nova pessoa na arquibancada geral
+u: Lanchonete at 487.42765249423957: Pessoa vai para a geral
+u: Entrada at 488.92077947233753: Nova pessoa entra no estadio
+u: Saida at 489.9774182963484: Pessoa vai pra casa
+u: Bilheteria at 492.47649199936836: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 492.47649199936836: Nova pessoa na arquibancada das cadeiras
+u: ArquibancadaCadeiras at 493.77034771898815: Pessoa sai da arquibancada das cadeiras
+u: Entrada at 493.9765559189578: Nova pessoa entra no estadio
+u: ArquibancadaGeral at 496.36453405662644: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 496.36453405662644: Nova pessoa na arquibancada geral
+u: Bilheteria at 496.50570987325096: Pessoa compra ingresso
+u: Entrada at 499.5742847090303: Nova pessoa entra no estadio
+u: Bilheteria at 502.8665683457725: Pessoa compra ingresso
+u: ArquibancadaGeral at 506.9072051099452: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 506.9072051099452: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 514.0974373263455: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 514.0974373263455: Nova pessoa na arquibancada geral
+u: Saida at 514.6065689734868: Pessoa vai pra casa
+u: Entrada at 515.1115142955972: Nova pessoa entra no estadio
+u: Saida at 515.9346711487213: Pessoa vai pra casa
+u: Entrada at 517.1755677004501: Nova pessoa entra no estadio
+u: Bilheteria at 519.1907786137073: Pessoa compra ingresso
+u: ArquibancadaGeral at 520.8293017829693: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 520.8293017829693: Nova pessoa na arquibancada geral
+u: Bilheteria at 522.4471662155984: Pessoa compra ingresso
+u: Saida at 528.9299276871704: Pessoa vai pra casa
+u: ArquibancadaGeral at 529.4780354061696: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 529.4780354061696: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 531.0933231006742: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 531.0933231006742: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 543.0424196189076: Pessoa sai da arquibancada geral
+u: Entrada at 549.2279121749676: Nova pessoa entra no estadio
+u: Bilheteria at 552.0019343686989: Pessoa compra ingresso
+u: AreaDeConveniencia at 555.5173925881567: Pessoa vai para a lanchonete
+u: Saida at 557.467568251586: Pessoa vai pra casa
+u: Saida at 558.0421194942655: Pessoa vai pra casa
+u: Saida at 559.3717709917003: Pessoa vai pra casa
+u: Lanchonete at 562.0797713766726: Pessoa vai para a geral
+u: ArquibancadaGeral at 562.0797713766726: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 565.8436557602339: Pessoa sai da arquibancada geral
+u: Saida at 566.6886594193516: Pessoa vai pra casa
+u: Saida at 573.8352560300688: Pessoa vai pra casa
+u: Entrada at 576.7496143288358: Nova pessoa entra no estadio
+u: Saida at 577.6423282719846: Pessoa vai pra casa
+u: Bilheteria at 578.7747728616573: Pessoa compra ingresso
+u: ArquibancadaGeral at 578.7747728616573: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 581.7085885638191: Pessoa sai da arquibancada geral
+u: Entrada at 587.5406373568856: Nova pessoa entra no estadio
+u: Saida at 590.9279075521057: Pessoa vai pra casa
+u: Saida at 591.5127908085294: Pessoa vai pra casa
+u: Bilheteria at 592.433534455593: Pessoa compra ingresso
+u: ArquibancadaGeral at 592.433534455593: Nova pessoa na arquibancada geral
+u: Saida at 596.8594317774321: Pessoa vai pra casa
+u: ArquibancadaGeral at 597.5814554082615: Pessoa sai da arquibancada geral
+u: Saida at 597.8607931627146: Pessoa vai pra casa
+u: Saida at 606.0154702170372: Pessoa vai pra casa
+u: Saida at 608.3393918052158: Pessoa vai pra casa
+u: Entrada at 631.4408883263019: Nova pessoa entra no estadio
+u: Bilheteria at 635.4428336733977: Pessoa compra ingresso
+u: Entrada at 637.8211932334526: Nova pessoa entra no estadio
+u: AreaDeConveniencia at 639.9369589509862: Pessoa vai para o banheiro feminino
+u: BanheiroFeminino at 641.4480197584837: Pessoa vai para a geral
+u: ArquibancadaGeral at 641.4480197584837: Nova pessoa na arquibancada geral
+u: Bilheteria at 641.4797145937803: Pessoa compra ingresso
+u: Entrada at 642.7862106436033: Nova pessoa entra no estadio
+u: ArquibancadaGeral at 643.5601065648721: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 643.5601065648721: Nova pessoa na arquibancada geral
+u: Bilheteria at 644.3258136998852: Pessoa compra ingresso
+u: AreaDeConveniencia at 645.5617306866361: Pessoa vai para o banheiro masculino
+u: Entrada at 648.1219996345004: Nova pessoa entra no estadio
+u: ArquibancadaGeral at 648.3315754223233: Pessoa sai da arquibancada geral
+u: BanheiroMasculino at 648.3381689677717: Pessoa vai para a geral
+u: ArquibancadaGeral at 648.3381689677717: Nova pessoa na arquibancada geral
+u: Entrada at 648.3794001606476: Nova pessoa entra no estadio
+u: Bilheteria at 651.2305267484578: Pessoa compra ingresso
+u: Saida at 651.8485956880149: Pessoa vai pra casa
+u: Saida at 653.1894789326576: Pessoa vai pra casa
+u: ArquibancadaGeral at 654.0025722970861: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 654.0025722970861: Nova pessoa na arquibancada geral
+u: Saida at 654.5013489038605: Pessoa vai pra casa
+u: Bilheteria at 655.5402068890579: Pessoa compra ingresso
+u: Entrada at 661.4425661013884: Nova pessoa entra no estadio
+u: Entrada at 662.9404630835074: Nova pessoa entra no estadio
+u: ArquibancadaGeral at 663.9761941446989: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 663.9761941446989: Nova pessoa na arquibancada geral
+u: Bilheteria at 664.0532654010746: Pessoa compra ingresso
+u: Bilheteria at 666.9282523316476: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 666.9282523316476: Nova pessoa na arquibancada das cadeiras
+u: Saida at 666.9883562755365: Pessoa vai pra casa
+u: ArquibancadaGeral at 669.5126804621217: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 669.5126804621217: Nova pessoa na arquibancada geral
+u: Entrada at 674.3208464681117: Nova pessoa entra no estadio
+u: ArquibancadaGeral at 675.62984279268: Pessoa sai da arquibancada geral
+u: ArquibancadaCadeiras at 675.7085134199891: Pessoa sai da arquibancada das cadeiras
+u: Bilheteria at 677.1934288916499: Pessoa compra ingresso
+u: Saida at 679.1277366685465: Pessoa vai pra casa
+u: AreaDeConveniencia at 680.6042982597301: Pessoa vai para o banheiro masculino
+u: Saida at 680.8161457352: Pessoa vai pra casa
+u: Saida at 682.2225483022584: Pessoa vai pra casa
+u: BanheiroMasculino at 683.8406522183495: Pessoa vai para a geral
+u: ArquibancadaGeral at 683.8406522183495: Nova pessoa na arquibancada geral
+u: Entrada at 690.5319260679621: Nova pessoa entra no estadio
+u: ArquibancadaGeral at 692.4625288356724: Pessoa sai da arquibancada geral
+u: Bilheteria at 692.5112671638709: Pessoa compra ingresso
+u: ArquibancadaGeral at 692.5112671638709: Nova pessoa na arquibancada geral
+u: Entrada at 692.7807295490907: Nova pessoa entra no estadio
+u: Bilheteria at 695.8457817087289: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 695.8457817087289: Nova pessoa na arquibancada das cadeiras
+u: ArquibancadaCadeiras at 696.1062090920915: Pessoa sai da arquibancada das cadeiras
+u: Entrada at 698.5915387472983: Nova pessoa entra no estadio
+u: ArquibancadaGeral at 699.501300026694: Pessoa sai da arquibancada geral
+u: Entrada at 700.1841999805929: Nova pessoa entra no estadio
+u: Bilheteria at 702.517410844374: Pessoa compra ingresso
+u: ArquibancadaGeral at 702.517410844374: Nova pessoa na arquibancada geral
+u: Bilheteria at 706.026798775359: Pessoa compra ingresso
+u: ArquibancadaGeral at 709.3770543541177: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 709.3770543541177: Nova pessoa na arquibancada geral
+u: Entrada at 711.2004790964571: Nova pessoa entra no estadio
+u: Saida at 711.6714446074685: Pessoa vai pra casa
+u: ArquibancadaGeral at 712.2097140038074: Pessoa sai da arquibancada geral
+u: Bilheteria at 713.0698820453921: Pessoa compra ingresso
+u: ArquibancadaGeral at 713.0698820453921: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 713.9298694328363: Pessoa sai da arquibancada geral
+u: Saida at 717.1401689999087: Pessoa vai pra casa
+u: Saida at 725.1618128264445: Pessoa vai pra casa
+u: Entrada at 728.5033305314417: Nova pessoa entra no estadio
+u: Saida at 730.0620556191463: Pessoa vai pra casa
+u: Bilheteria at 733.0717801773277: Pessoa compra ingresso
+u: ArquibancadaGeral at 733.0717801773277: Nova pessoa na arquibancada geral
+u: Entrada at 733.208671142495: Nova pessoa entra no estadio
+u: Entrada at 734.304403170224: Nova pessoa entra no estadio
+u: Bilheteria at 736.66518429696: Pessoa compra ingresso
+u: Saida at 736.8932619847476: Pessoa vai pra casa
+u: Entrada at 740.4504831799993: Nova pessoa entra no estadio
+u: Bilheteria at 740.6791520823592: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 740.6791520823592: Nova pessoa na arquibancada das cadeiras
+u: Bilheteria at 741.9180118171028: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 743.7649382965781: Pessoa sai da arquibancada das cadeiras
+u: ArquibancadaGeral at 744.2929048110395: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 744.2929048110395: Nova pessoa na arquibancada geral
+u: Saida at 748.2068386990571: Pessoa vai pra casa
+u: Entrada at 748.8074115984739: Nova pessoa entra no estadio
+u: ArquibancadaGeral at 749.5083445938507: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 749.5083445938507: Nova pessoa na arquibancada geral
+u: Bilheteria at 751.8006204027743: Pessoa compra ingresso
+u: ArquibancadaGeral at 752.619482842375: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 752.619482842375: Nova pessoa na arquibancada geral
+u: Entrada at 758.6375621884617: Nova pessoa entra no estadio
+u: Bilheteria at 761.2963926480382: Pessoa compra ingresso
+u: ArquibancadaGeral at 762.2754823692728: Pessoa sai da arquibancada geral
+u: ArquibancadaGeral at 762.2754823692728: Nova pessoa na arquibancada geral
+u: Entrada at 763.6436670674551: Nova pessoa entra no estadio
+u: Saida at 763.9136180159948: Pessoa vai pra casa
+u: ArquibancadaGeral at 764.4712008882759: Pessoa sai da arquibancada geral
+u: Bilheteria at 765.3143969966686: Pessoa compra ingresso
+u: ArquibancadaGeral at 765.3143969966686: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 768.6602065758399: Pessoa sai da arquibancada geral
+u: Entrada at 769.5293266039826: Nova pessoa entra no estadio
+u: Bilheteria at 771.0680781250322: Pessoa compra ingresso
+u: ArquibancadaGeral at 771.0680781250322: Nova pessoa na arquibancada geral
+u: Saida at 772.3859929939596: Pessoa vai pra casa
+u: ArquibancadaGeral at 781.0231371209733: Pessoa sai da arquibancada geral
+u: Entrada at 782.1998133791246: Nova pessoa entra no estadio
+u: Bilheteria at 784.5977802368618: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 784.5977802368618: Nova pessoa na arquibancada das cadeiras
+u: ArquibancadaCadeiras at 784.5978122103527: Pessoa sai da arquibancada das cadeiras
+u: Saida at 790.9467917042529: Pessoa vai pra casa
+u: Entrada at 791.3146594344788: Nova pessoa entra no estadio
+u: Bilheteria at 793.2483041808396: Pessoa compra ingresso
+u: ArquibancadaGeral at 793.2483041808396: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 795.7086610415786: Pessoa sai da arquibancada geral
+u: Saida at 805.4569381286417: Pessoa vai pra casa
+u: Saida at 827.1056056502122: Pessoa vai pra casa
+u: Saida at 827.2050492350095: Pessoa vai pra casa
+u: Saida at 850.013553733467: Pessoa vai pra casa
+u: Saida at 850.2246282552517: Pessoa vai pra casa
+u: Saida at 858.4858935492289: Pessoa vai pra casa
+u: Saida at 858.5255286732256: Pessoa vai pra casa
+u: Bilheteria at 858.5255286732256: Pessoa compra ingresso
+u: ArquibancadaCadeiras at 858.5255286732256: Nova pessoa na arquibancada das cadeiras
+u: ArquibancadaCadeiras at 858.5255286732256: Pessoa sai da arquibancada das cadeiras
+u: ArquibancadaGeral at 858.5255286732256: Nova pessoa na arquibancada geral
+u: ArquibancadaGeral at 858.5255286732256: Pessoa sai da arquibancada geral
+u: BanheiroMasculino at 858.5255286732256: Pessoa vai para a geral
+u: BanheiroFeminino at 858.5255286732256: Pessoa vai pras cadeiras
+u: Saida at 858.5255286732256: Pessoa vai pra casa
+u: AreaDeConveniencia at 858.5255286732256: Pessoa vai para o banheiro masculino
+u: Lanchonete at 858.5255286732256: Pessoa vai para a geral

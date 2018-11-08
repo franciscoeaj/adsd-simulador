@@ -9,59 +9,70 @@ import eduni.simjava.distributions.Sim_normal_obj;
 import eduni.simjava.distributions.Sim_random_obj;
 
 public class Banheiro extends Sim_entity {
+
+	private Sim_port entrada, geral, cadeiras;
 	
-	private Sim_port entrada, arqGeral, arqCadeiras;
 	private Sim_normal_obj delay;
 	private Sim_random_obj prob;
+	
 	private Sim_stat stat;
 	
-	public Banheiro(Entidades banheiroMasculino, double media, double variancia) {
-		super(banheiroMasculino.getNome());
+	Banheiro(String nome, double media, double variancia) {
 		
-		entrada = new Sim_port(Entidades.ENTRADA.getNome());
+		super(nome);
+		
+		entrada = new Sim_port("Entrada");
+		geral = new Sim_port("Arquibancada Geral");
+		cadeiras = new Sim_port("Arquibancada Cadeiras");
+		
 		add_port(entrada);
-		
-		arqGeral = new Sim_port(Entidades.ARQUIBANCADA_GERAL.getNome());
-		add_port(arqGeral);
-		
-		arqCadeiras = new Sim_port(Entidades.ARQUIBANCADA_CADEIRAS.getNome());
-		add_port(arqCadeiras);
+		add_port(geral);
+		add_port(cadeiras);
 		
 		delay = new Sim_normal_obj("Delay", media, variancia);
-		add_generator(delay);
+		prob = new Sim_random_obj("Probability");
 		
-		prob = new Sim_random_obj("Probabilidade");
+		add_generator(delay);
 		add_generator(prob);
 		
+		//Medidas de estatistica
 		stat = new Sim_stat();
 		
 		stat.add_measure(Sim_stat.ARRIVAL_RATE); //Taxa de chegada
 		stat.add_measure(Sim_stat.QUEUE_LENGTH); //Tamanho da fila
 		stat.add_measure(Sim_stat.WAITING_TIME); //Tempo de espera
-		stat.add_measure(Sim_stat.UTILISATION);  //Utilização
+		stat.add_measure(Sim_stat.UTILISATION);  //UtilizaÃ§Ã£o
 		stat.add_measure(Sim_stat.RESIDENCE_TIME); //Tempo de resposta
 		
 		set_stat(stat);
+		
 	}
 	
 	public void body() {
+		
 		while (Sim_system.running()) {
+			
 			Sim_event e = new Sim_event();
+			
 			sim_get_next(e);
+			
 			sim_process(delay.sample());
+			
 			sim_completed(e);
 			
 			double p = prob.sample();
 			
-			if (p <= 0.3) {
-				sim_trace(1, "Pessoa sai do banheiro e vai para as cadeiras");
-				sim_schedule(arqCadeiras, 0.0, 1);
+			if (p <= 0.10) {
+				//1% das pessoas vÃ£o pra casa antes de ir pro evento
+				sim_trace(1, "Pessoa vai pras cadeiras");
+				sim_schedule(cadeiras, 0.0, 1);
+				
 			} else {
-				sim_trace(1, "Pessoa sai do banheiro e vai para a torcida geral");
-				sim_schedule(arqGeral, 0.0, 1);
+				//99% sai do banheiro e vai para o evento
+				sim_trace(1, "Pessoa vai para a geral");
+				sim_schedule(geral, 0.0, 1);
 			}
 		}
+		
 	}
-	
-
 }
